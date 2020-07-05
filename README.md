@@ -15,7 +15,7 @@ https://vinchien.github.io/Counter/
 2. counter CDN
 
 ```
-<script src="https://github.com/VinChien/Counter/blob/master/counter.js"></script>
+<script src="https://vinchien.github.io/Counter/counter.js"></script>
 ```
 
 參數設定 -
