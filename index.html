@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>計數器展示頁面</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div></div>
     <div></div>
-    <div class="counter">0</div>
-
-
+    <!-- data-工具名稱-參數名稱 -->
+    <!-- number 最終數字(目標數字) -->
+    <!-- duration 持續時間 -->
+    <!-- offset 位移 -->
+    <div class="counter" data-counter-number="777" data-counter-time="1000" data-counter-offset="120">0</div>
+    <div class="counter" data-counter-number="888" data-counter-time="2000" data-counter-offset="120">0</div>
+    <div class="counter" data-counter-number="999" data-counter-time="3000" data-counter-offset="120">0</div>
+    <div class="counter" data-counter-number="888" data-counter-time="1000" data-counter-offset="120">0</div>
+    <div class="counter" data-counter-number="777" data-counter-time="3000" data-counter-offset="120">0</div>
+    <div class="counter" data-counter-number="666" data-counter-time="2000" data-counter-offset="120">0</div>
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- counter CDN -->
+    <!-- counter js -->
     <script src="./counter.js"></script>
 </body>
+
 </html>
